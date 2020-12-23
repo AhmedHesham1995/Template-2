@@ -880,10 +880,12 @@ footer {
     transition: color 0.5s;
     cursor: pointer;
     font-size: 15px;
+    transition: padding 0.3s;
 }
 
 .footer-content ul li:hover {
     color: #fff;
+    padding-left: 5px;
 }
 
 .footer-left {
@@ -895,6 +897,10 @@ footer {
     margin: 30px 0;
     line-height: 1.7;
     font-size: 15px;
+}
+
+.footer-apps img {
+    cursor: pointer;
 }
 
 .footer-apps img:nth-child(2) {
